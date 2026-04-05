@@ -1,0 +1,78 @@
+html{
+    
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #2a6aff;
+}
+div.container{
+    margin: 30px;
+    background-color: #2a6aff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    word-spacing: -2px;
+    text-align: center;
+}
+
+div.second-container{
+    margin: 30px;
+    color: #2a6aff;
+    font-size: 20px;
+}
+
+div.second-container ol{
+    list-style: none;
+    padding: 0;
+    display: block;
+    font-size: 20px;
+}
+
+div.second-container li{
+    margin: 0 0 15px 0;
+    background-color: #2a6aff;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    word-spacing: -2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.second-container li + p{
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    background-color: #2a6aff;
+    color: #ffffff;
+    border-radius: 7px;
+    font-size: 20px;
+}
+a{
+    color: #2200ff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+button{
+    background-color: #2a6aff;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #070132;
+}
+
