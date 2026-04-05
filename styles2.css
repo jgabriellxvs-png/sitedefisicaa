@@ -16,7 +16,7 @@ div.container{
 }
 
 div.second-container{
-    margin: 30px;
+    margin:  0 30px 0 0;
     color: #2a6aff;
     font-size: 20px;
 }
